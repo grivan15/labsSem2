@@ -37,6 +37,6 @@ def newt(interval):
     return x1
 
 
-a = float(1)
-b = float(1.5)
-print(f'x = {newt(local(a, b, N))}')
+a = float(1 / 3)
+b = float(2 / 3)
+print(f'x = {newt(local(a, b, N))}') 
