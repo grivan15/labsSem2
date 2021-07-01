@@ -15,7 +15,7 @@ def local(a, b, N):
     while funct(x0) * funct(x1) >= 0:
         x0 = x1
         x1 += (b - a) / N
-        if x1 == b:
+        if x1 >= b:
             N = 2 * N
             x0 = a
             x1 = a + (b - a) / N
